@@ -1,0 +1,103 @@
+body{
+  margin: 0;
+  padding: 0;
+  font-family: Marcellus;
+}
+.banner{
+  width: 100%;
+  height: 100vh;
+  background-image: linear-gradient(rgba(0,0,0,0.78),rgba(0,0,0,0.78)),url(02.jpg);
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.navbar{
+  width: 100%;
+  height: 3vh;
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 35px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: rgb(0,0,0,0.1);
+  color: white;
+}
+.logo{
+  cursor: pointer;
+  margin-left: 40px;
+  margin-top: 35px;
+  height: 120px;
+}
+.navbar ul li{
+  list-style: none;
+  display: inline-block;
+  margin: 0 20px;
+  position: relative;
+}
+.navbar ul li a{
+  text-decoration: none;
+  color: white;
+  text-transform: uppercase;
+}
+.navbar ul li::after{
+  content: '';
+  height: 3px;
+  width: 0;
+  background:#fff;
+  position: absolute;
+  left:0;
+  bottom:-10px;
+  transition: 0.5s;
+}
+.navbar ul li:hover::after{
+  width:100%;
+}
+.content{
+  text-align: center;
+}
+h1{
+  font-size: 65px;
+  color: white;
+  font-family: Prospec;
+}
+.button a{
+  width: 170px;
+  text-decoration: none;
+  padding: 10px 0;
+  display: inline-block;
+  margin: 0 10px;
+  border: 2px solid #fff;
+  position: relative;
+  color:#fff;
+  z-index: 1;
+  transition: color 0.5s;
+  }
+
+.button{
+  font-weight: bold;
+  word-spacing: 2px;
+}
+.button a span{
+  background: #fff;
+  height: 100%;
+  width: 0;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  z-index:-1;
+  transition: 0.5s;
+}
+.button a:hover span{
+  width:100%;
+}
+.button a:hover{
+  border:2px solid black;
+  color: black;
+}
