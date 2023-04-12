@@ -6,7 +6,6 @@ body{
 .banner{
   width: 100%;
   height: 100vh;
-  background-image: url("home_bg.jpg");
   background-size: cover;
   background-position: center;
   position: relative;
