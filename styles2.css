@@ -349,7 +349,8 @@ textarea.input {
     margin-left:0;
   }
   .navbar ul li{
-    margin: 2px 60px;
+    margin: 2px ;
+    margin-left: 80px;
   }
   .container {
     padding: 1.5rem;
