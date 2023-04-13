@@ -342,6 +342,15 @@ textarea.input {
 }
 
 @media (max-width: 480px) {
+  .body{
+    overflow:scroll;
+  }
+  .logo{
+    margin-left:10px;
+  }
+  .navbar{
+    align-items:right;
+  }
   .container {
     padding: 1.5rem;
   }
