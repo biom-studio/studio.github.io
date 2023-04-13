@@ -103,11 +103,11 @@ h1{
 }
 @media screen and (max-width: 600px) {
   .banner{
-    background-size: cover;
+    background-size:fixed;
   }
   .navbar{
     width: 100%;
-    height: 100px;
+    height: 3vh;
     position: absolute;
     top: 0;
     left: 0;
@@ -116,21 +116,23 @@ h1{
     align-items: center;
     justify-content: space-between;
     background: rgb(0,0,0,0.8);
-    font-size: 12px;
+    font-size: 18px;
     color: white;
   }
   .logo{
     cursor: pointer;
     margin-left: 5px;
     margin-top: 20px;
-    height: 110px;
+    height: 140px;
   }
+  
   .navbar ul li{
     list-style: none;
     display: inline-block;
     margin-top: 10px;
+    line-height:10px;
     position: relative;
-    font-size:15px;
+    font-size:18px;
   }
  }
 
