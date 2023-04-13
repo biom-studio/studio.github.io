@@ -342,18 +342,18 @@ textarea.input {
 }
 
 @media (max-width: 480px) {
-  .navbar{
-    height:6vh;
-  }
-  .logo{
-    margin-left:0;
-  }
-  .navbar ul li{
-    margin-top: 2px ;
-    margin-bottom: 2px;
-    margin-left: 40%;
-    font-size:0.5rem;
-  }
+      .navbar{
+      height:6vh;
+    }
+    .logo{
+      margin-left:0;
+    }
+    .navbar ul li{
+      margin-top: 2px;
+      margin-bottom:2px;
+      margin-left:45%;
+      font-size: 14px;
+    }
   .container {
     padding: 1.5rem;
   }
