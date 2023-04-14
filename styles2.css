@@ -359,7 +359,7 @@ textarea.input {
     }
 
   .container {
-    padding: 1.5rem;
+    padding: 0 1rem;
   }
 
   .contact-info:before {
@@ -388,9 +388,9 @@ textarea.input {
 
   .title {
     font-size: 1rem;
-    margin:0.3rem 0;
+    margin:0.8rem 0;
     font-weight: 500;
-    line-height: 0;
+    line-height: 2px;
   }
 
   .social-icons a {
@@ -403,15 +403,17 @@ textarea.input {
     width: 8px;
   }
   .input-container{
-    padding: 0.5rem;
+    padding: 0;
+    margin: 0.5rem 0;
   }
   .input {
     padding: 0.45rem 1.2rem;
   }
   textarea.input{
-    max-height: 40px;
+    min-height: 15px;
   }
   .btn {
     padding: 0.45rem 1.2rem;
   }
 }
+
