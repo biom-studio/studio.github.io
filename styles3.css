@@ -151,7 +151,7 @@ body{
 }
 @media (max-width: 480px) {
     .navb{
-      height:20vh;
+      height:12vh;
     }
     .logo{
       margin-left:0;
@@ -159,8 +159,8 @@ body{
     .navb ul li{
       margin-top: 2px;
       margin-bottom:2px;
-      margin-left:65%;
-      font-size: 12px;
+      margin-left:60%;
+      font-size: 13px;
     }
   .navb ul li::after{
   content: '';
@@ -174,5 +174,5 @@ body{
 }
   .row{
     position: absolute;
-    left:15%;
+    left:25%;
 }
