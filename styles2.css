@@ -342,6 +342,9 @@ textarea.input {
 }
 
 @media (max-width: 480px) {
+    .body{
+      overflow: scroll;
+    }
     .navbar{
       height:6vh;
     }
@@ -351,9 +354,10 @@ textarea.input {
     .navbar ul li{
       margin-top: 2px;
       margin-bottom:2px;
-      margin-left:58%;
-      font-size: 13px;
+      margin-left:45%;
+      font-size: 14px;
     }
+
   .container {
     padding: 1.5rem;
   }
@@ -365,9 +369,17 @@ textarea.input {
 
   form,
   .contact-info {
-    padding: 1.7rem 1.6rem;
+    padding: 0.5rem 0.8rem;
   }
-
+  .text{
+    margin: 0.5rem 0;
+  }
+  .info{
+    line-height: 2px;
+  }
+  .social-media{
+    padding: 0;
+  }
   .text,
   .information,
   .social-media p {
@@ -375,7 +387,10 @@ textarea.input {
   }
 
   .title {
-    font-size: 1.15rem;
+    font-size: 1rem;
+    margin:0.8rem 0;
+    font-weight: 500;
+    line-height: 2px;
   }
 
   .social-icons a {
@@ -387,11 +402,15 @@ textarea.input {
   .icon {
     width: 8px;
   }
-
+  .input-container{
+    padding: 0.5rem;
+  }
   .input {
     padding: 0.45rem 1.2rem;
   }
-
+  textarea.input{
+    max-height: 40px;
+  }
   .btn {
     padding: 0.45rem 1.2rem;
   }
