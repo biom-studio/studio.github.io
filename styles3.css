@@ -15,7 +15,7 @@ body{
 .navb{
   width: 100%;
   height: 14vh;
-  padding: 50px 0;
+  padding: 25px 0;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -31,7 +31,7 @@ body{
 .navb ul li{
   list-style: none;
   display: inline-block;
-  margin: 0 20px;
+  margin: 5px 20px;
   position: relative;
 }
 .navb ul li a{
@@ -151,8 +151,7 @@ body{
 }
 @media (max-width: 480px) {
     .navb{
-      height:16vh;
-      padding-top:10px;
+      height:15vh;
     }
     .logo{
       margin-left:0;
@@ -161,7 +160,7 @@ body{
       margin-top: 2px;
       margin-bottom:2px;
       margin-left:60%;
-      font-size: 13px;
+      font-size: 14px;
     }
   .navb ul li::after{
   content: '';
