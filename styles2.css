@@ -360,6 +360,7 @@ textarea.input {
 
   .container {
     padding: 0 1rem;
+    max-height: max-content;
   }
 
   .contact-info:before {
