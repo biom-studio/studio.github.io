@@ -159,11 +159,11 @@ body{
     }
   .navb ul li{
     margin-top: 1px;
-    margin-bottom:1px;
+    margin-bottom:0;
     padding-top: 2px;
     margin-left:60%;
     font-size: 12px;
-    line-height: 1px;
+    line-height: 0;
   }
   .navb ul li::after{
   content: '';
