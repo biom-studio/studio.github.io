@@ -163,7 +163,7 @@ body{
     padding-top: 15px;
     margin-left:60%;
     font-size: 12px;
-    line-height: 1px;
+    line-height: 0;
   }
   .navb ul li::after{
   content: '';
