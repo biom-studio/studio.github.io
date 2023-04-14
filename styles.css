@@ -135,4 +135,17 @@ h1{
     font-size:18px;
   }
  }
-
+@media (max-width: 480px) {
+    .navbar{
+      height:6vh;
+    }
+    .logo{
+      margin-left:0;
+    }
+    .navbar ul li{
+      margin-top: 2px;
+      margin-bottom:2px;
+      margin-left:58%;
+      font-size: 13px;
+    }
+}
