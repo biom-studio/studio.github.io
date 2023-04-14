@@ -366,10 +366,16 @@ textarea.input {
   .contact-info:before {
     display: none;
   }
-  .navbar ul li::after{
-    height: 1px;
-    bottom: -2px;
-  }
+ .navbar ul li::after{
+  content: '';
+  height: 1px;
+  width: 0;
+  background:#fff;
+  position: absolute;
+  left:0;
+  bottom:-2px;
+  transition: 0.5s;
+}
   form,
   .contact-info {
     padding: 0.5rem 0.8rem;
