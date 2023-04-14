@@ -151,7 +151,7 @@ body{
 }
 @media (max-width: 480px) {
     .navbar{
-      height:6vh;
+      height:25vh;
     }
     .logo{
       margin-left:0;
@@ -159,7 +159,17 @@ body{
     .navbar ul li{
       margin-top: 2px;
       margin-bottom:2px;
-      margin-left:58%;
-      font-size: 13px;
+      margin-left:60%;
+      font-size: 12px;
     }
+  .navb ul li::after{
+  content: '';
+  height: 1px;
+  width: 0;
+  background:#fff;
+  position: absolute;
+  left:0;
+  bottom:-1px;
+  transition: 0.5s;
+}
 }
