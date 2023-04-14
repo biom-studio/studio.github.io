@@ -172,4 +172,7 @@ body{
   bottom:-1px;
   transition: 0.5s;
 }
+  .row{
+    position: absolute;
+    left:15%;
 }
