@@ -14,7 +14,7 @@ body{
 }
 .navb{
   width: 100%;
-  height: 13vh;
+  height: 15vh;
   padding: 35px 0;
   display: flex;
   align-items: center;
@@ -151,7 +151,7 @@ body{
 }
 @media (max-width: 480px) {
     .navb{
-      height:12vh;
+      height:8vh;
     }
     .logo{
       margin-left:0;
@@ -174,5 +174,5 @@ body{
 }
   .row{
     position: absolute;
-    left:25%;
+    left:12.5%;
 }
