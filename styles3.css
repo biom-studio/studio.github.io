@@ -152,6 +152,7 @@ body{
 @media (max-width: 480px) {
     .navb{
       height:16vh;
+      padding-top:10px;
     }
     .logo{
       margin-left:0;
