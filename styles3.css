@@ -173,6 +173,5 @@ body{
   transition: 0.5s;
 }
   .row{
-    position: absolute;
-    left:0;
+    position:static;
 }
