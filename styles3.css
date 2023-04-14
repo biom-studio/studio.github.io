@@ -14,8 +14,8 @@ body{
 }
 .navb{
   width: 100%;
-  height: 14vh;
-  padding: 35px 0;
+  height: 18vh;
+  padding: 40px 0;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -29,9 +29,10 @@ body{
   height: 120px;
 }
 .navb ul li{
+  padding-top:4px;
   list-style: none;
   display: inline-block;
-  margin: 5px 20px;
+  margin: 0 20px;
   position: relative;
 }
 .navb ul li a{
@@ -150,19 +151,20 @@ body{
  transform-origin: bottom left;
 }
 @media (max-width: 480px) {
-    .navb{
+  .navb{
       height:16vh;
-      padding-top:3px;
     }
-    .logo{
+  .logo{
       margin-left:0;
     }
-    .navb ul li{
-      margin-top: 2px;
-      margin-bottom:2px;
-      margin-left:60%;
-      font-size: 14px;
-    }
+  .navb ul li{
+    margin-top: 2px;
+    margin-bottom:2px;
+    padding-top: 15px;
+    margin-left:60%;
+    font-size: 12px;
+    line-height: 1px;
+  }
   .navb ul li::after{
   content: '';
   height: 1px;
