@@ -136,10 +136,11 @@ h1{
   }
  }
 @media (max-width: 480px) {
-  body{
+  .banner{
     overflow: hidden;
   }
   .navbar{
+    height:4vh;
     padding: 40px 0;
   }
   .logo{
@@ -147,8 +148,8 @@ h1{
   }
   .navbar ul li{
     margin-top: 0;
-    margin-left: 60%;
-    font-size: 14px;
+    margin-left: 55%;
+    font-size: 13px;
   }
   .navbar ul li::after{
     content: '';
@@ -157,11 +158,12 @@ h1{
     background:#fff;
     position: absolute;
     left:0;
-    bottom:-1px;
+    bottom:-2px;
     transition: 0.5s;
   }
   h1{
     font-size: 45px;
+    font-family: Prospec;
   }
   .button a{
     width: 120px;
