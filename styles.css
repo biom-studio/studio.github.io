@@ -136,15 +136,17 @@ h1{
   }
  }
 @media (max-width: 480px) {
+  body{
+    height:96vh;
+  }
   .banner{
     overflow: hidden;
   }
   .navbar{
-    height:4vh;
+    height:5vh;
     padding: 40px 0;
   }
   .logo{
-    padding-top:10px;
     margin-left: 0;
   }
   .navbar ul{
@@ -162,7 +164,7 @@ h1{
     background:#fff;
     position: absolute;
     left:0;
-    bottom:-2px;
+    bottom:-3px;
     transition: 0.5s;
   }
   h1{
