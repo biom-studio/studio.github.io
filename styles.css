@@ -144,7 +144,11 @@ h1{
     padding: 40px 0;
   }
   .logo{
+    padding-top:10px;
     margin-left: 0;
+  }
+  .navbar ul{
+    padding-top:2px;
   }
   .navbar ul li{
     margin-top: 0;
