@@ -137,7 +137,7 @@ h1{
  }
 @media (max-width: 480px) {
   body{
-    height:94vh;
+    height:90vh;
   }
   .banner{
     overflow: hidden;
@@ -148,7 +148,7 @@ h1{
   }
   .logo{
     margin-left: 0;
-    margin-top:5px;
+    margin-top:15px;
     height:100px;
     width:100px;
   }
@@ -157,7 +157,7 @@ h1{
   }
   .navbar ul li{
     margin-top: 0;
-    margin-left: 55%;
+    margin-left: 60%;
     font-size: 13px;
   }
   .navbar ul li::after{
