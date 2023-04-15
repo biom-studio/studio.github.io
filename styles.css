@@ -148,8 +148,9 @@ h1{
   }
   .logo{
     margin-left: 0;
-    margin-top:10px;
+    margin-top:5px;
     height:100px;
+    width:100px;
   }
   .navbar ul{
     padding-top:2px;
