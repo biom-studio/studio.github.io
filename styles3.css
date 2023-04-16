@@ -111,7 +111,7 @@ body{
 }
 @media (max-width:480px) {
   .navb{
-    height: 16vh;
+    height: 12vh;
   }
   .logo{
     margin-left:0;
@@ -122,8 +122,8 @@ body{
   .navbar ul li{
     margin-top: 2px;
     margin-bottom:2px;
-    margin-left:60%;
-    font-size: 13px;
+    margin-left:65%;
+    font-size: 12px;
     line-height:0;
   }
   .navb ul li::after{
@@ -133,10 +133,10 @@ body{
   background:#fff;
   position: absolute;
   left:0;
-  bottom:-3px;
+  bottom:-1px;
   transition: 0.5s;
 }
   .row{
     position:relative;
-    left:15%;
+    left:20%;
 }
