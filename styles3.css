@@ -124,13 +124,13 @@ body{
     margin-bottom: 20px;
   }
   .navb{
-    height:16vh;
+    height:14vh;
   }
   .navb ul li{
     margin-top: 0;
     margin-bottom: 0;
     margin-left: 60%;
-    font-size: 12px;
+    font-size: 14px;
   }
   .navb ul{
     margin-top: 0;
@@ -145,7 +145,7 @@ body{
     background:#fff;
     position: absolute;
     left:0;
-    bottom:-2px;
+    bottom:-3px;
     transition: 0.5s;
   }
 
