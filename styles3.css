@@ -125,7 +125,7 @@ body{
     margin-bottom: 25px;
   }
   .navb{
-    height:14vh;
+    height:16vh;
   }
   .navb ul li{
     margin-top: 0;
@@ -149,5 +149,8 @@ body{
     bottom:-3px;
     transition: 0.5s;
   }
+  .gallery-item:hover img{
+    transform:scale(1.075);
+}
 
 }
