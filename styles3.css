@@ -93,7 +93,7 @@ body{
  transition: transform 1s ease-out;
 }
 .gallery-item{
-  margin-bottom: 30px;
+  margin-bottom: 25px;
   margin-right: 10px;
 }
 .gallery-item img{
