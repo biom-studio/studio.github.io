@@ -19,7 +19,7 @@ body{
   position: absolute;
   top: 0;
   left: 0;
-  padding: 40px 0;
+  padding: 35px 0;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -29,7 +29,7 @@ body{
 .logo{
   cursor: pointer;
   margin-left: 40px;
-  margin-top: 35px;
+  margin-top: 40px;
   height: 120px;
 }
 .navbar ul li{
