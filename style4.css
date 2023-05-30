@@ -2,6 +2,7 @@ body{
   margin: 0;
   padding: 0;
   font-family: Marcellus;
+  overflow: hidden;
 }
 .back-img{
   position: fixed;
@@ -96,11 +97,14 @@ body{
   max-width: 80%;
 }
 .rule{
-  position: relative;
-  top: 1rem;
+  position: absolute;
+  bottom: 3rem;
+  left:5%;
   width: 90%;
 }
 .rights{
   text-align: center;
-  margin-top: 2rem;
+  position: absolute;
+  bottom: 0.5rem;
+  left:44vw;
 }
