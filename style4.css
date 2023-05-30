@@ -1,0 +1,106 @@
+body{
+  margin: 0;
+  padding: 0;
+  font-family: Marcellus;
+}
+.back-img{
+  position: fixed;
+  top:0;
+  left: 0;
+  z-index: -100;
+  width: 100%;
+  height: 100vh;
+}
+
+.navbar{
+  width: 100%;
+  height: 5vh;
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 35px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: rgb(0,0,0,0.8);
+  color: white;
+}
+.logo{
+  cursor: pointer;
+  margin-left: 40px;
+  margin-top: 40px;
+  height: 120px;
+}
+.navbar ul li{
+  list-style: none;
+  display: inline-block;
+  margin: 0 20px;
+  position: relative;
+}
+.navbar ul li a{
+  text-decoration: none;
+  color: white;
+  text-transform: uppercase;
+}
+.navbar ul li::after{
+  content: '';
+  height: 3px;
+  width: 0;
+  background:#fff;
+  position: absolute;
+  left:0;
+  bottom:-10px;
+  transition: 0.5s;
+}
+.navbar ul li:hover::after{
+  width:100%;
+}
+.pos{
+  position: relative;
+  top : 6rem;
+}
+.txt{
+  text-align: center;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+.hover-underline-animation {
+ display: inline-block;
+ position: relative;
+ color:black;
+}
+
+.hover-underline-animation:after {
+ content: '';
+ position: absolute;
+ width: 100%;
+ transform: scaleX(0);
+ height: 2px;
+ bottom: 0;
+ left: 0;
+ background-color:black;
+ transform-origin: bottom right;
+ transition: transform 1s ease-out;
+}
+.hover-underline-animation:hover:after {
+ transform: scaleX(1);
+ transform-origin: bottom left;
+}
+.container{
+  position: relative;
+  left:10%;
+  background-color: white;
+  text-align: center;
+  line-height: 1.5rem;
+  margin-top: 75px;
+  max-width: 80%;
+}
+.rule{
+  position: relative;
+  top: 1rem;
+  width: 90%;
+}
+.rights{
+  text-align: center;
+  margin-top: 2rem;
+}
