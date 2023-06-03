@@ -93,7 +93,7 @@ body{
   background-color: white;
   text-align: center;
   line-height: 1.5rem;
-  margin-top: 75px;
+  margin-top: 6rem;
   max-width: 80%;
 }
 .rule{
@@ -107,4 +107,57 @@ body{
   position: absolute;
   bottom: 0.5rem;
   left:44vw;
+}
+.first_s{
+  height: 200px;
+  width:15%;
+  position: absolute;
+  top:45%;
+  left:12.5%;
+  text-align: center;
+  background: white;
+}
+.second_s{
+  height: 200px;
+  width:15%;
+  position: absolute;
+  top:45%;
+  left:32.5%;
+  text-align: center;
+  background: white;
+}
+.third_s{
+  height: 200px;
+  width:15%;
+  position: absolute;
+  top:45%;
+  left:52.5%;
+  text-align: center;
+  background: white;
+}
+.forth_s{
+  height: 200px;
+  width:15%;
+  position: absolute;
+  top:45%;
+  left:72.5%;
+  text-align: center;
+  background: white;
+}
+.service_img{
+  height:75px;
+  width:75px;
+  margin: 1rem;
+}
+.first_s:hover{
+  transform: scale(1.35);
+}
+.second_s:hover{
+  transform: scale(1.35);
+}
+.third_s:hover{
+  transform: scale(1.35);
+}
+.forth_s:hover{
+  transform: scale(1.35);
 }
